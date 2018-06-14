@@ -1,0 +1,146 @@
+body {
+    background-image: url("../images/what-the-hex-dark.png")
+}
+
+.header {
+    width: 100%;
+    height: 78px;
+    background-color: #ffffff;
+    border-bottom: 5px;
+    border-color: #666666;    
+    border-style: solid;
+}
+
+.heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;   
+    font-size: 22px;
+    color: #4aaaa5;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+    padding: 26px 30px 26px 30px;
+    margin: 0 0 0 15%;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.head-div {
+    float: right;
+    margin: 0 15% 0 0
+}
+
+.head-div hr {
+    border: none;
+    border-left: 1px solid;
+    border-color: #777777;
+    width: 1px;
+    height: 16px;
+    float: left;
+    margin: 27px 0 27px 0;
+}
+
+.header-buttons {
+    float: left;
+    margin: 27px 30px 27px 30px;
+    background-color: #ffffff;
+    border: none;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 70%;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+#bio-picture {
+    float: left;
+    margin: 10px;
+}
+
+.about-text {
+    text-indent: 15px;
+    line-height: 1.5;
+}
+
+.portfolio-links {
+    margin: 0 10px;
+    float: left;
+}
+
+.img-text {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 160px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    color: #ffffff;
+}
+
+
+.ftr-txt {
+    text-align: center;
+    padding-top: 22px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
